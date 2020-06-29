@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/create_survey_layout"
+    tools:context=".mainactivities.CreateSurveyActivity"
+
+    >
+
+    <TextView
+        android:id="@+id/createSurvey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="#434B4D"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="@string/survey_insert"
+        />
+
+
+
+    <EditText
+        android:id="@+id/sv_title"
+        style="@style/viewCustom"
+        android:ems="10"
+        android:hint="@string/sv_title"
+        android:inputType="text"
+        android:layout_below="@id/createSurvey"
+        />
+    <EditText
+        android:id="@+id/sv_link"
+        style="@style/viewCustom"
+        android:layout_below="@id/sv_title"
+        android:ems="10"
+        android:hint="@string/link"
+        android:inputType="textUri" />
+    <EditText
+        android:id="@+id/sv_category"
+        style="@style/viewCustom"
+        android:ems="10"
+        android:layout_below="@id/sv_link"
+        android:hint="@string/category"
+        android:inputType="text" />
+
+
+    <TextView
+        android:id="@+id/dateAvailability"
+        style="@style/viewCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sv_category"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:ems="100"
+        android:hint="@string/survey_available"
+        android:textSize="18sp" />
+
+    <DatePicker
+        android:id="@+id/sv_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateAvailability"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+       />
+
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/viewCustom"
+        android:layout_below="@id/sv_datepicker"
+        android:background="@android:color/holo_red_light"
+        android:text="@string/submit_survey"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

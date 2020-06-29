@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "871292261995",
+    "firebase_url": "https://surveyhelper-9f87e.firebaseio.com",
+    "project_id": "surveyhelper-9f87e",
+    "storage_bucket": "surveyhelper-9f87e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871292261995:android:a983b7541bf1c9afbdc32e",
+        "android_client_info": {
+          "package_name": "at.fh.surveyhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871292261995-d3vts38e31nt5815gnsle5haj5ublrjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB2avt_pyoStw08YBBDC6Hto3ZLlClv64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871292261995-d3vts38e31nt5815gnsle5haj5ublrjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
